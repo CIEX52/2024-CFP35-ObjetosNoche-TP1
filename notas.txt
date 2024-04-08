@@ -1,0 +1,18 @@
+SuperClase Vehiculo
+- No existen instancias puras de Vehículo.           --> (indica una clase Abstracta)
+- Un Vehículo siempre tiene color marca modelo       --> (Atributos de clase no nulos)
+- Un Vehículo no siempre tiene precio.               --> (Atributo de clase opcional [null], se debe craer un metodo que permita setear el precio)
+- Todos los vehículos pueden cambiar de radio.       --> (Método de clase)
+- En todos los vehículos se puede agregar una Radio. --> (Método de clase)
+
+Clase Radio (como atributo de clase en Vehículo >> AutoClasico | AutoNuevo o Colectivo) 
+- Una Radio solo puede estar en un Vehículo a la vez.
+- Una Radio siempre tiene marca, potencia.
+
+Clases AutoNuevo y AutoClasico (clases hijas de Vehiculo)
+- Un Auto Clásico se puede fabricar sin Radio, después se puede agregar 1 Radio.
+- Un Auto Nuevo siempre tiene Radio y se puede cambiar de Radio.
+
+Clase Colectivo
+- Los Colectivo se pueden fabricar sin radio y después se puede agregar una radio.
+- No se pueden crear subproductos derivados del Colectivo. --> (indica una clase Final de forma explícita)
