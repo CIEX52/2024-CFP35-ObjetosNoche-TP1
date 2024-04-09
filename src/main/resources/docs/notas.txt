@@ -5,14 +5,14 @@ SuperClase Vehiculo
 - Todos los vehículos pueden cambiar de radio.       --> (Método de clase)
 - En todos los vehículos se puede agregar una Radio. --> (Método de clase)
 
-Clase Radio (como atributo de clase en Vehículo >> AutoClasico | AutoNuevo o Colectivo) 
+Clase Radio (contenida en Vehículo) 
 - Una Radio solo puede estar en un Vehículo a la vez.
 - Una Radio siempre tiene marca, potencia.
 
-Clases AutoNuevo y AutoClasico (clases hijas de Vehiculo)
+Clases AutoNuevo y AutoClasico (heredan de Vehiculo)
 - Un Auto Clásico se puede fabricar sin Radio, después se puede agregar 1 Radio.
 - Un Auto Nuevo siempre tiene Radio y se puede cambiar de Radio.
 
-Clase Colectivo
-- Los Colectivo se pueden fabricar sin radio y después se puede agregar una radio.
-- No se pueden crear subproductos derivados del Colectivo. --> (indica una clase Final de forma explícita)
+Clase Bondi
+- Los Bondis se pueden fabricar sin radio y después se puede agregar una radio.
+- No se pueden crear subproductos derivados del Bondi. --> (indica una clase Final de forma explícita)
