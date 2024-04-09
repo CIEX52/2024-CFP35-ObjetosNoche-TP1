@@ -17,7 +17,7 @@ public class AutoClasicoTest {
         System.out.println(autoCalsico1);
         System.out.println();
 
-        System.out.println(" --- Tasando Precio a autoClasico1 ---");
+        System.out.println(" --- Tasando Precio de autoClasico1 ---");
         autoCalsico1.tasarVehiculo(150000f); 
         System.out.println(autoCalsico1);
         System.out.println();

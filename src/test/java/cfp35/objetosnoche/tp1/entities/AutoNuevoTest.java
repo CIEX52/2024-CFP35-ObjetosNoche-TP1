@@ -11,7 +11,7 @@ public class AutoNuevoTest {
         System.out.println(autoNuevo1);
         System.out.println();
 
-        System.out.println(" --- Tasando Precio a autoNuevo1 ---");
+        System.out.println(" --- Tasando Precio de autoNuevo1 ---");
         autoNuevo1.tasarVehiculo(350000f); 
         System.out.println(autoNuevo1);
         System.out.println();
