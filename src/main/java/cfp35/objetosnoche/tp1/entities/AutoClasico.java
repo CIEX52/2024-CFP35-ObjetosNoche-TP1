@@ -7,6 +7,11 @@ import lombok.Setter;
 @Getter
 @Setter
 public class AutoClasico extends Vehiculo {
+    /**
+     * @param marca
+     * @param modelo
+     * @param color
+     */
     public AutoClasico(String marca, String modelo, String color){
         super(marca, modelo, color);
     }

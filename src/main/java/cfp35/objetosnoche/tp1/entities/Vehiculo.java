@@ -6,19 +6,11 @@ import lombok.ToString;
 @ToString
 @Getter
 public abstract class Vehiculo {
-    // public TipoVehiculo tipo; // atributo para uso en polimorfismo
     private String marca;
     private String modelo;
     private String color;
     private Float precio;
-    private Radio radio;
-
-    // public Vehiculo(TipoVehiculo tipo, String marca, String modelo, String color) {
-    //     this.tipo = tipo;
-    //     this.marca = marca;
-    //     this.modelo = modelo;
-    //     this.color = color;
-    // }
+    public Radio radio;
 
     public Vehiculo(String marca, String modelo, String color) {
         this.marca = marca;
@@ -42,8 +34,3 @@ public abstract class Vehiculo {
         }
     }
 }
-
-// enum TipoVehiculo {
-//     CLASICO,
-//     NUEVO
-// }

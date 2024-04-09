@@ -26,12 +26,5 @@ public class AutoClasicoTest {
         autoCalsico1.cambiarRadio(radio2);;
         System.out.println(autoCalsico1);
         System.out.println();
-
-
-
-
-
-
-
     }
 }
