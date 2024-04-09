@@ -12,6 +12,11 @@ public abstract class Vehiculo {
     private Float precio;
     public Radio radio;
 
+    /**
+     * @param marca
+     * @param modelo
+     * @param color
+     */
     public Vehiculo(String marca, String modelo, String color) {
         this.marca = marca;
         this.modelo = modelo;
