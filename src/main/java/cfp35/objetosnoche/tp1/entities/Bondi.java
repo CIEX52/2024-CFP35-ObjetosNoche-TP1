@@ -3,14 +3,14 @@ package cfp35.objetosnoche.tp1.entities;
 import lombok.Getter;
 
 @Getter
-public final class Colectivo extends Vehiculo{
+public final class Bondi extends Vehiculo{
     
     /**
      * @param marca
      * @param modelo
      * @param color
      */
-    public Colectivo(String marca, String modelo, String color) {
+    public Bondi(String marca, String modelo, String color) {
         super(color, marca, modelo);
     }
 
