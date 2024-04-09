@@ -8,9 +8,9 @@ import lombok.Getter;
 public final class Radio {
     String marca;
     Integer potencia;
-    
+
     @Override
     public String toString() {
         return marca + ", " + potencia + "W";
-    }    
+    }
 }

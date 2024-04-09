@@ -3,8 +3,8 @@ package cfp35.objetosnoche.tp1.entities;
 import lombok.Getter;
 
 @Getter
-public final class Bondi extends Vehiculo{
-    
+public final class Bondi extends Vehiculo {
+
     /**
      * @param marca
      * @param modelo

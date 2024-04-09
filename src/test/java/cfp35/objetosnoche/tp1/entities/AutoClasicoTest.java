@@ -1,6 +1,5 @@
 package cfp35.objetosnoche.tp1.entities;
 
-
 public class AutoClasicoTest {
     public static void main(String[] args) {
         System.out.println(" --- Testing Auto Clasico sin radio ---");
@@ -18,12 +17,13 @@ public class AutoClasicoTest {
         System.out.println();
 
         System.out.println(" --- Tasando Precio de autoClasico1 ---");
-        autoCalsico1.tasarVehiculo(150000f); 
+        autoCalsico1.tasarVehiculo(150000f);
         System.out.println(autoCalsico1);
         System.out.println();
 
         System.out.println(" --- Cambiando Radio a autoClasico1 ---");
-        autoCalsico1.cambiarRadio(radio2);;
+        autoCalsico1.cambiarRadio(radio2);
+        ;
         System.out.println(autoCalsico1);
         System.out.println();
     }
